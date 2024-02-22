@@ -1,5 +1,4 @@
 import { StyleSheet, View } from 'react-native';
-import HomeIcon from '../assets/icons/Home.svg';
 
 const FooterButton = ({ Icon, active }) => {
 	return (

@@ -23,10 +23,11 @@ const SlideComponent = () => {
 const styles = StyleSheet.create({
 	slide: {
 		position: 'relative',
-		paddingHorizontal: 40,
+		paddingHorizontal: '10%',
 		borderRadius: 20,
 		backgroundColor: '#C0CBB0',
-		height: 165,
+		flex: 1,
+		maxHeight: 167,
 		overflow: 'hidden',
 	},
 	slideBg: {

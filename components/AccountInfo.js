@@ -24,6 +24,7 @@ const styles = StyleSheet.create({
 		flexDirection: 'row',
 		alignItems: 'center',
 		gap: 20,
+		flex: 2
 	},
 	accountIcon: {
 		width: 40,

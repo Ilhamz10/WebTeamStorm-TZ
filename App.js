@@ -1,4 +1,4 @@
-import { Image, StyleSheet, View } from 'react-native';
+import { Image, ScrollView, StyleSheet, View } from 'react-native';
 import AccountInfo from './components/AccountInfo';
 import Tries from './components/Tries';
 import FooterButton from './components/FooterButton';
@@ -40,22 +40,25 @@ const styles = StyleSheet.create({
 	},
 	wrapper: {
 		width: '90%',
-		marginBottom: 15,
+		marginBottom: '5%',
 		alignItems: 'flex-start',
+		flex: 2
 	},
 	logoContainer: {
 		flexDirection: 'row',
 		justifyContent: 'center',
-		paddingVertical: 22,
+		flex: 1,
+		marginBottom: '3%'
 	},
 	logo: {
-		height: 40,
-		width: 70,
+		width: '20%',
+		objectFit: 'contain'
 	},
 	footer: {
 		flexDirection: 'row',
-		paddingVertical: 10,
+		flex: 1,
 		justifyContent: 'space-evenly',
 		width: '100%',
+		alignItems: 'center'
 	},
 });

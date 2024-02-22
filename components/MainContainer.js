@@ -39,26 +39,29 @@ const MainContainer = () => {
 
 const styles = StyleSheet.create({
 	mainContent: {
+		padding: 20,
 		backgroundColor: 'white',
-		paddingVertical: 25,
 		borderRadius: 50,
 		width: '100%',
 		alignItems: 'center',
-		flex: 1,
+		flex: 6,
 	},
 	mainWrapper: {
 		width: '90%',
-		gap: 20,
+		gap: 10,
 	},
 	procedureCont: {
 		flexDirection: 'row',
-		gap: 10,
 		flexWrap: 'wrap',
 	},
 	procedurText: {
 		fontWeight: 'bold',
 		fontSize: 22,
 	},
+	slider: {
+		height: '100%',
+		maxHeight: 167
+	}
 });
 
 export default MainContainer;

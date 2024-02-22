@@ -17,8 +17,10 @@ const Tries = () => {
 
 const styles = StyleSheet.create({
 	triesCont: {
-		marginTop: 20,
-		width: 300,
+		marginTop: '5%',
+		width: '100%',
+		maxWidth: 300,
+		flex: 3,
 	},
 	triesText: {
 		width: 263,
@@ -29,7 +31,7 @@ const styles = StyleSheet.create({
 		flexDirection: 'row',
 		width: '100%',
 		height: 10,
-		marginTop: 15,
+		marginTop: '3%',
 		marginBottom: 7,
 	},
 	tryUsed: {
